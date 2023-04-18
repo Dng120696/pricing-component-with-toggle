@@ -10,13 +10,13 @@ toggleBox.addEventListener('click',() =>{
   toggleIcon.classList.toggle('active');
   
   if(!toggleIcon.classList.contains('active')){
-    boxNum1.textContent = '19.99';
-    boxNum2.textContent = '24.99';
-    boxNum3.textContent = '39.99';
+    boxNum1.textContent = '$19.99';
+    boxNum2.textContent = '$24.99';
+    boxNum3.textContent = '$39.99';
   }else{
-    boxNum1.textContent = '199.99';
-    boxNum2.textContent = '249.99';
-    boxNum3.textContent = '399.99';
+    boxNum1.textContent = '$199.99';
+    boxNum2.textContent = '$249.99';
+    boxNum3.textContent = '$399.99';
   }
 
 })

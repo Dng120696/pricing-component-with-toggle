@@ -175,12 +175,14 @@ section.box p:not(:first-child){
 .bg-clr-violet{
   background: linear-gradient(to right,hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
 }
+          
 .box-1 .btn:hover,
 .box-3 .btn:hover{
   cursor: pointer;
   border: 1px solid var(--Dark-Grayish-Blue);
   background:  var(--clr-white);
   color: var(--clr-text-violet) ;
+ 
 }
 .box-2 .btn:hover{
   cursor: pointer;
